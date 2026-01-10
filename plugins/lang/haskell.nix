@@ -1,6 +1,6 @@
 {
   plugins.lsp.servers.hls = {
-    enable = true;
+    # enable = true;
     installGhc = false;
     packageFallback = true;
   };
