@@ -267,7 +267,7 @@ in
     imagemagick
     ghostscript_headless
     tectonic
-    mermaid-cli
+    # mermaid-cli # dont need a web browser with my text mode editor
     dwt1-shell-color-scripts
   ]; # for image support
 
