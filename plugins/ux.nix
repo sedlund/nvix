@@ -57,5 +57,7 @@
         };
       };
     };
+    rainbow-delimiters.enable = true;
+    smear-cursor.enable = true;
   };
 }

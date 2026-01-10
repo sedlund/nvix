@@ -10,7 +10,7 @@ in
   # Implement this with a fix, i have done the implementation in nix way, but `grep` seems to break.
   # first check is required if it is from lua or nix
   plugins.todo-comments.enable = true;
-  plugins.neoscroll.enable = true;
+  plugins.neoscroll.enable = false; # sucks on latent ssh networks
   plugins.snacks = {
     enable = true;
     settings = {
