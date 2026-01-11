@@ -1,7 +1,7 @@
 { pkgs, lib, ... }:
 {
   plugins.lsp.servers.tinymist = {
-    enable = true;
+    # enable = true;
   };
 
   plugins.conform-nvim.settings = {
@@ -10,7 +10,7 @@
   };
 
   plugins.typst-preview = {
-    enable = true;
+    # enable = true;
   };
 
 }

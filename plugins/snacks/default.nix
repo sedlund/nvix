@@ -264,11 +264,11 @@ in
   };
 
   extraPackages = with pkgs; [
-    imagemagick
-    ghostscript_headless
-    tectonic
-    # mermaid-cli # dont need a web browser with my text mode editor
-    dwt1-shell-color-scripts
+    # imagemagick
+    # ghostscript_headless
+    # tectonic
+    # mermaid-cli # includes chrome
+    # dwt1-shell-color-scripts
   ]; # for image support
 
   autoCmd = [
